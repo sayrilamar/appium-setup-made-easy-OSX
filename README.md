@@ -15,16 +15,18 @@ Your environment needs to be setup for the particular mobile platforms that you 
 ## INSTALLATION
 
 open a terminal, navigate to appium-setup-OSX directory
+#### 1. zShell Install
+  sh ./zsh_install.sh
 
-#### iOS setup
+#### 2. iOS setup
 
   sh ./ios.sh followed-by-your_system_password
 
 ##### provide your system password as you need to authorize use of the iOS Simulator etc. more info can be found from [here](http://appium.io/slate/en/master/?javascript#about-appium)
 
-#### Android setup
+#### 3. Android setup
 
-  sh ./android.sh
+  sh ./android.sh followed-by-your_system_password
 
 ##### finally set the android home. Edit your .bash_profile and add following command to .bash_profile and save it.
 
